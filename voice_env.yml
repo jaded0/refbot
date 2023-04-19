@@ -1,0 +1,22 @@
+name: voice2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - openai
+  - pandas
+  - pillow
+  - pip
+  - pygame
+  - python=3.10
+  - requests
+  - scikit-learn
+  - scipy
+  - speechrecognition
+  - tqdm
+  - pip:
+      - pdf2image
+      - pyaudio
+      - openai-whisper
+      - soundfile
